@@ -5,7 +5,7 @@ I am aware that internally, this is a 'hackish' approach, but I tried to find be
 
 ------
 ### Instructions
-Call the following function only once, for example in the `didFinishLaunchingWithOptions`, to not show the HUD when buttons are pressed.
+Call the following function only once, for example in the `didFinishLaunchingWithOptions`, not to show the HUD when buttons are pressed.
 
 ```swift
 VolumeButtonsListener.hideVolumeHUD()
