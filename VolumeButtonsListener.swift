@@ -28,7 +28,7 @@ class VolumeButtonsListener: NSObject {
             }
             currentHandler = handler
         } catch {
-            Logger.log.error(error.localizedDescription)
+            print(error.localizedDescription)
         }
     }
     
@@ -40,7 +40,7 @@ class VolumeButtonsListener: NSObject {
             }
             currentHandler = nil
         } catch {
-            Logger.log.error(error.localizedDescription)
+            print(error.localizedDescription)
         }
     }
 
