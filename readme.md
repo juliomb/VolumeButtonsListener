@@ -1,7 +1,7 @@
 ## VolumeButtonsListener
 With this little class, you would be able to listen and handle events produced by the volume buttons.
 
-I am aware that this is a 'hackish' approach, but I tried to find better solutions and I couldn't. Please, if you discover a proper solution, let me know =)
+I am aware that internally, this is a 'hackish' approach, but I tried to find better solutions and I couldn't (Apple doesn't want us to use this buttons for our own purposes). Please, if you discover a proper way to do it, let me know =)
 
 ------
 ### Instructions
